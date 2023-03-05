@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 19;
-        if (age>=18){
-            System.out.println("Eligible for voting");
+        int x=-5;
+        if(x>0){
+            System.out.println("The number is positive");
+        } else if (x==0) {
+            System.out.println("The number is zero");
         }else {
-            System.out.println("Not elegible for voting");
+            System.out.println("The number is negative");
         }
     }
 }
